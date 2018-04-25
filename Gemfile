@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'hydra-role-management'
+
 gem 'hyrax', '2.1.0.beta2'
 gem 'riiif', '~> 1.1'
 
@@ -57,7 +59,7 @@ group :development, :test do
   gem 'rspec', "~> 3.5"
   gem 'rspec-rails', "~> 3.5"
   gem 'shoulda-matchers'
-  gem 'fcrepo_wrapper'  
+  gem 'fcrepo_wrapper'
   gem 'solr_wrapper', '>= 0.3'
   gem 'selenium-webdriver'
 end
