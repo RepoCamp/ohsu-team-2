@@ -1,5 +1,7 @@
 # Terrible Twos
 
+[![Build Status](https://travis-ci.org/RepoCamp/ohsu-team-2.svg?branch=master)](https://travis-ci.org/RepoCamp/ohsu-team-2)
+
 A project to learn / model a Samvera development sprint.
 
 Goals: 
