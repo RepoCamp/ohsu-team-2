@@ -28,3 +28,7 @@ dump.rdb
 # Ephemeral application files
 /public/uploads/*
 
+# dotenv stuff suggested to not be committed
+.env
+.env.development
+.env.production
