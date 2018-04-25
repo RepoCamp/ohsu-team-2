@@ -1,24 +1,20 @@
-# README
+# Terrible Twos
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A project to learn / model a Samvera development sprint.
 
-Things you may want to cover:
+Goals: 
 
-* Ruby version
+- interested in Travis-CI and testing
+- modeling GitHub collaboration
+- exploring the Hyrax admin interface
+- adding a new work type
 
-* System dependencies
+Project team: 
 
-* Configuration
+- [Eddie Rubeiz](https://github.com/eddierubeiz)
+- [Kevin s. Clarke](https://github.com/ksclarke)
+- [Michael spalti](https://github.com/mspalti)
+- [Darrow Cole](https://github.com/darrowcoucla)
+- [Evan Will](https://github.com/evanwill)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Samvera Camp OHSU 2018](https://github.com/RepoCamp/ohsu2018)
