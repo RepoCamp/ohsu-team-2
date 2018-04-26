@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'dotenv-rails'
+
 gem 'hyrax', '2.1.0.beta2'
 gem 'riiif', '~> 1.1'
 
