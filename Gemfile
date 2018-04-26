@@ -53,16 +53,19 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'launchy'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'database_cleaner'
   gem 'rspec', "~> 3.5"
   gem 'rspec-rails', "~> 3.5"
   gem 'shoulda-matchers'
-  gem 'fcrepo_wrapper'  
+  gem 'fcrepo_wrapper'
   gem 'solr_wrapper', '>= 0.3'
   gem 'selenium-webdriver'
 end
+
+gem 'hydra-role-management'
 
 
 
