@@ -1,10 +1,10 @@
 # Generated via
-#  `rails generate hyrax:work Work`
+#  `rails generate hyrax:work AudioWork`
 require 'rails_helper'
 include Warden::Test::Helpers
 
 # NOTE: If you generated more than one work, you have to set "js: true"
-RSpec.feature 'Create a Work', js: false do
+RSpec.feature 'Create a AudioWork', js: false do
   context 'a logged in user' do
     let(:user_attributes) do
       { email: 'test@example.com' }
@@ -31,9 +31,9 @@ RSpec.feature 'Create a Work', js: false do
     end
 
     scenario do
-      visit '/concern/works/new'
+      visit '/concern/audio_works/new'
 
-      expect(page).to have_content "Add New Work"
+      expect(page).to have_content "Add New Audio Work"
       click_link "Files" # switch tab
       expect(page).to have_content "Add files"
       expect(page).to have_content "Add folder"
@@ -47,11 +47,14 @@ RSpec.feature 'Create a Work', js: false do
       fill_in('Keyword', with: 'testing')
       select('In Copyright', from: 'Rights statement')
 
+      click_link('Additional fields')
+      fill_in('Year', with: '1997')
+
       # With selenium and the chrome driver, focus remains on the
       # select box. Click outside the box so the next line can't find
       # its element
       find('body').click
-      choose('work_visibility_open')
+      choose('audio_work_visibility_open')
       expect(page).to have_content('Please note, making something visible to the world (i.e. marking this as Public) may be viewed as publishing which could impact your ability to')
       check('agreement')
 
