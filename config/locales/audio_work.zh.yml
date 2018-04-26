@@ -1,0 +1,10 @@
+zh:
+  hyrax:
+    icons:
+      audio_work:     'fa fa-file-text-o'
+    select_type:
+      audio_work:
+        # TODO: translate `human_name` into Chinese
+        description:        "Audio work 作品"
+        name:               "Audio Work"
+        # TODO: translate `human_name` into Chinese

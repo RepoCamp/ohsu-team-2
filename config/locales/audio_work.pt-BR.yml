@@ -1,0 +1,8 @@
+pt-BR:
+  hyrax:
+    icons:
+      audio_work:     'fa fa-file-text-o'
+    select_type:
+      audio_work:
+        description:        "Audio work trabalhos"
+        name:               "Audio Work"
